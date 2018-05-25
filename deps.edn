@@ -1,0 +1,7 @@
+{:deps
+ {org.clojure/clojurescript {:mvn/version "1.10.238"}}
+
+ :aliases
+ {:build {:main-opts ["-m" "cljs.main"
+                      "--compile-opts" "{:optimizations :advanced}"
+                      "--compile" "hello-world.core"]}}}
